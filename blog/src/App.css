@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.list {
+  padding-left: 20px;
+  text-align: left;
+  border-bottom: 1px solid grey;
+}
+
+.black-nav {
+  display: flex;
+  background: black;
+  width: 100%;
+  color: white;
+  padding-left: 20px;
+}
+
+button[class^='btn-'] {
+  margin-top: 50px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 5px 10px;
+  border: 1px solid black;
+}
+button[class^='btn-'] + button[class^='btn-'] {
+  margin-left: 12px;
+}
+
+.modal {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #eee;
+  text-align: left;
+}
